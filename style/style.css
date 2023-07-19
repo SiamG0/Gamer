@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&family=Lato:wght@400;700;900&family=Work+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+
+/* shared section starts here */
+body{
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+.primary-color{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.primary-btn{
+    padding: 1rem 2rem;
+    align-items: flex-start;
+    border-radius: 30px;
+    background-color: #ff42a5;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 600;
+    
+    
+}
+.secondery-btn{
+    padding: 1rem 2rem;
+    align-items: flex-start;
+    border-radius: 30px;
+    background-color: #4EC5F7;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 600;
+    
+}
+.primary-titel{
+    color: #0B0223;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+    padding-top: 1em;
+}
+.primary-dis{
+    text-align: center;
+    color: #534C64;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+
+/* shared section ends here */
+
+/* nav section starts here */
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+    padding:1em 2em 1em 2em;
+    
+}
+
+.nav-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:1.5rem;
+    
+}
+
+.nav-option{
+    
+    text-decoration: none;
+    color:#3C354F ;
+    font-size: 1.1em;
+    font-weight: 500;
+    
+}
+
+
+
+.nav-left{
+    display: flex;
+    justify-content: space-between;
+    gap: 0.3rem;
+    align-items: center;
+}
+
+.nav-logo{
+    width: 5rem;
+    height: auto;
+}
+
+.nav-titel{
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.nav-btn{
+    height: 3rem;
+    max-width: 12rem;
+    border-radius: 10px;
+    font-size: 1.1em;
+    font-weight: 500;
+    
+}
+
+
+
+
+/* nav section ends here */
+/* banner section starts here */
+.banner{
+    background-image:url(../img/1.png);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15rem;
+    padding-right: 15rem;
+
+}
+.banner-content{
+    
+}
+
+.banner-titel-1{
+    color: #0B0223;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 600;
+    
+}
+
+.banner-titel-2{
+    font-size: 4.5em;
+    font-weight: 800;
+    text-align: center;
+    
+   
+}
+
+.banner-dis{
+    display: flex;
+    gap: 0.5em;
+    text-align: center;
+    color: #534C64;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+.banner-dis1{
+    display: flex;
+    gap: 0.5em;
+    text-align: center;
+    color: #534C64;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+.banner-dis2{
+    display: flex;
+    gap: 0.5em;
+    text-align: center;
+    color: #534C64;
+    font-size: 1.1em;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.banner-img{
+   height: 30rem;
+   width: 30rem;
+}
+
+
+
+/* banner section ends here */
