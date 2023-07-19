@@ -443,7 +443,83 @@ nav{
  /* medium divece start's here */
 
  @media screen and (min-width:576px) and (max-width:960px) {
+    nav{
+        
+        justify-content: space-between;
+        padding: 2rem 3rem;
+    }
+    .nav-left{
+       display: flex;
+
+       justify-content: center;
+       
       
+    }
+
+    .nav-right{
+       display: flex;
+       
+       justify-content: center;
+    }
+    .banner{
+        margin: 0 2rem;
+        padding: 2rem;
+        
+    }
+    .banner-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .bottom-gap{
+        margin-bottom: 1rem;
+    }
+    .banner-img-container{
+        padding: 0 6rem 0 0rem;
+    }
+    .funny-img-container{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .card{
+        margin:0 3rem;
+    }
+    .playi{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+   .playi1{
+        padding: 0.1 4rem;
+   }
+   .playi2{
+        padding: 1.7rem;
+        
+   }
+   .playi-content{
+        display: flex;
+        align-items: center;
+   }
+
+   .all-games{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding:2rem 0 2rem 0;
+    margin-bottom: 13rem;
+    
+    
+   }
+   .games-container{
+    padding: 0;
+    margin: 0;
+   }
+   
+   .footer-options{
+    gap: 1rem;
+   }
  }
 
 
