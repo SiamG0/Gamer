@@ -268,3 +268,52 @@ nav{
 
 
 /* playi section ends here */
+
+/* all games section starts here */
+.all-games{
+    margin-top: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    gap: 1.5rem;
+    height: 10rem;
+    padding: 0 13rem;
+    
+    
+    
+}
+.games{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+    height: 1rem;
+    width: auto;
+    padding: 1.5rem;
+    border-radius: 1.5em;
+}
+.game-img{
+    height: 2.6rem;
+}
+.games p{
+    font-size: 0.8rem;
+    font-weight: 500;
+    
+}
+
+.games:hover{
+    color: #F948B2;
+   
+}
+.games:hover{
+    border: 2px solid #ff42a5;
+    
+}
+
+
+
+
+
+/* all games section ends here */
